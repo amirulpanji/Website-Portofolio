@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="shortcut icon" href="asset/img/project-img/shortcutIcon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+<body>
+    <header>
+        <nav>  
+            <a href="#" class="logo">Amir</a>
+       <ul>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="Curriculum Vitae.pdf" download="cv_amirul">Resume</a></li>
+       </ul>  
+        </nav>  
+    </header>
+    <div class="splash">
+        <h1 id="scrambleText">!@#$%^</h1>
+    </div>
+    <div class="scroll-section">
+        <p class="text">AMIRULPANJIAMIRULPANJIAMIRULPANJIAMIRULPANJIAMIRULPANJI</p>
+    </div>
+    <div class="rajaiblis">
+        <svg id="circleIndicator" viewBox="0 0 187 187">
+            <circle cx  ="100" cy="100" r="75" stroke="#A3D1C6" stroke-width="5" fill="none"></circle>
+            <text id="scrollPercentText" x="100" y="100" text-anchor="middle" dominant-baseline="middle" fill="#A3D1C6" font-size="30" font-weight="700">0%</text>
+        </svg>
+        <section class="parallax">
+            <img src="asset/img/parallax.png" alt="">
+        </section>
+        <section class="main" id="main">
+            <div class="mainContainer">
+                <h1>Who am I?</h1>
+                <h2>Hello! My name is <a href="Curriculum Vitae.pdf" class="name" target="_blank">Amirul Panji</a></h2>
+                <p>
+                   I'm a Tenth grade student at SMK Telkom Purwokerto. I'm interested in web development especially the Frontend, but i also want to learn Backend. For me, designing websites is an art. there is a feeling of satisfaction and pride when looking at the website that I have designed. Therefore, I'm very open to any suggestions so that i can develop my skills.
+                </p>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/amirsbd0/" target="_blank"><i class='bx bxl-instagram' ></i></a></li>
+                <a href="https://www.youtube.com/@AmirulPanji-g9f" target="_blank"><i class='bx bxl-youtube' ></i></a></li>
+                <a href="https://www.linkedin.com/in/amirul-panji-43a736334/" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+                <a href="https://github.com/amirulpanji" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        </section>
+        <section class="frontend">
+            <div class="frontendContainer">
+                <h1>What do I Do?</h1>
+                <h2><a>Frontend </a>Designer</h2>
+                <p>A newbie fullstack developer who currently focused on Web development. Other than that, i also interested in UI/UX Design. For UI/UX Design, i prefer a simple but interactive interface design. I love to learn new things and always open to new opportunities. </p>
+                <h3 class="scrolldown">Scroll down to see my projects  <i class='bx bxs-down-arrow' ></i></h3>
+            </div>
+        </section>
+        <section class="skill"> <!--Skills-->
+            <h1>My Skills</h1>
+            <div class="skillContainer">
+                <div class="box">
+                    <i class='bx bxl-html5'></i>
+                </div>
+                <div class="box">
+                    <i class='bx bxl-css3' ></i>       
+                </div>
+                <div class="box">
+                    <i class='bx bxl-javascript' ></i>
+                </div>
+                <div class="box">
+                    <a href="https://tailwindcss.com/"><i class='bx bxl-tailwind-css' ></i></a></i>
+                </div>
+                <div class="box">
+                    <i class='bx bxl-react' ></i>
+                </div>
+                <div class="box">
+                    <i class='bx bxl-python' ></i>
+                </div>
+                <div class="box">
+                    <i class='bx bxl-php' ></i>
+                </div>
+                <div class="box">
+                    <i class='bx bxl-postgresql' ></i>
+                </div>
+            </div>
+        </section>
+        <section class="education">
+            <div class="eduContainer">
+                <h1>Education</h1>
+                <div class="contents">
+                    <div class="eduBox">
+                        <h3>2015-2021</h3>
+                        <h2>SDIT Topkids</h2>
+                        <p>Study Islamic law / fiqh, the Qur'an and Hadith, manners and morals in Islam, as well as various basic knowledge lessons</p>
+                    </div>
+                    <div class="eduBox">
+                        <h3>2021-2024</h3>
+                        <h2>SMP Telkom Purwokerto</h2>
+                        <p>Learning Basic Logic with Scratch. Designing an Application with MIT App Inventor. and creating a simple 2D Platformer Game with GDevelop</p>
+                    </div>
+                    <div class="eduBox">
+                        <h3>2024-2027</h3>
+                        <h2>SMK Telkom Purwokerto</h2>
+                        <p>Study about Web Development using HTML, CSS, JavaScript, Laravel, Bootstrap, Tailwind, React. PHP and MySQL</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project">
+            <div class="projectContainer">
+                <h1>My Latest Projects</h1>
+                <h2>Here are some of the latest projects I've made.</h2>
+            </div>
+            <hr>
+            <div class="project-item">
+                <div class="project-header">
+                    <h3>OnlyBread</h3>
+                    <i class='bx bx-plus' id="show1"></i>
+                </div>
+                <div class="project-description" id="description1">
+                    <img src="/asset/img/project-img/onlybread.png" alt="OnlyBread Project" class="project-image">
+                    <p>OnlyBread is a website that helps users find the best freshly baked bread. This website has various features, such as a sidebar menu for the Shopping Cart, Pop Up Modal for checkout and payments and also localhost for storing registration and login data. Made for PAS assignments in all DPK subjects</p>
+                </div>
+            </div>
+            <hr>
+            <div class="project-item">
+                <div class="project-header">
+                    <h3>Slamet 3428</h3>
+                    <i class='bx bx-plus' id="show2"></i>
+                </div>
+                <div class="project-description" id="description2">
+                    <img src="asset/img/project-img/slamet.png" alt="Slamet 3428 Project" class="project-image">
+                    <p>Slamet 3428 is my first project, an E-Commerce website specifically for climbing equipment. Even though it is actually still a design in figma, someday I will develop it into an actual website. has features like an e-commerce website, such as size options, items quantity, checkout, and payment.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="project-item">
+                <div class="project-header">
+                    <h3>PageStation</h3>
+                    <i class='bx bx-plus' id="show3"></i>
+                </div>
+                <div class="project-description" id="description3">
+                    <img src="asset/img/project-img/pagestation.png" alt="PageStation Project" class="project-image">
+                    <p>PageStation is a digital library website project made for the DPK-A PTS Portfolio Assignment. with features to read books, borrow books, dark mode, and various complete book collections based on genre. Connected to a MySQL database, so that there is an admin page that has the function of inputing books into the website</p>
+            </div>
+            <hr>
+            <div class="project-item">
+                <div class="project-header">
+                    <h3>Portfolio Website</h3>
+                    <i class='bx bx-plus' id="show4"></i>
+                </div>
+                <div class="project-description" id="description4">
+                    <img src="asset/img/project-img/portfolio.png" alt="Portfolio Website Project" class="project-image">
+                    <p>My First Portfolio Website. it actually contains the same thing as this website. showing my background, skills, clients, projects, and resume. but the website can't be called official yet, because there are several things that are made up on it.</p>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section class="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>If you interested or have any questions, feel free to contact me using the information below.</p>
+                    <div class="info-item">
+                        <i class='bx bx-phone'></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p><a href="https://wa.me/6289517181103" target="_blank">+62 895 1718 1103</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class='bx bx-envelope'></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:amirulpanji1@gmail.com">amirulpanji1@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class='bx bx-map'></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p><a href="https://maps.app.goo.gl/HJr9kXmhrjZMo7FS9" target="_blank">Jl. DI Panjaitan No. 128, Purwokerto Selatan</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class='bx bxl-linkedin'></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://www.linkedin.com/in/amirul-panji-43a736334/" target="_blank">Visit LinkedIn</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h2>Send Me a Message</h2>
+                    <form name="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="nama" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="pesan" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" id="submitBtn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <h4>&copy; 2025 Amir. All rights reserved</h4>
+            <div class="bottomline"></div>
+        </footer>
+    </div>
+    
+</body> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/@studio-freight/lenis"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+</html>
