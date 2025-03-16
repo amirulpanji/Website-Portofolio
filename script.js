@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+//function untuk smooth scroll lenis
 const lenis = new Lenis({
     duration: 1.5,
     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)) // Efek ease-out
@@ -32,7 +33,7 @@ function raf(time) {
 }
 requestAnimationFrame(raf);
 
-
+//animasi GSAP
     gsap.registerPlugin(ScrollTrigger);
     
     gsap.to(".text", {
@@ -183,6 +184,8 @@ requestAnimationFrame(raf);
                 ease: "power3.out"
             }
         );
+
+        //function fetch google app script (untuk memasukkan data form ke spreadsheet)
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxb_CKGKjiiik3b8hXhYzlhDssC4X83cWT933fxnIDsSJEqEUH1jpqwIdPiT2HZFIn6/exec'
 const form = document.forms['contact-form']
   
@@ -202,6 +205,8 @@ document.getElementById("submitBtn").addEventListener("click", function() {
         timer: 2000,
     }); 
 });
+
+//function untuk indikator progres
 let circleIndicator = document.getElementById ('circleIndicator');
     let circle = circleIndicator.querySelector('circle');
     let textElement = document.getElementById('scrollPercentText');
