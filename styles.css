@@ -112,10 +112,15 @@ nav ul li a.active {
 }
 
 .parallax img {
+    display: flex;
     height: 968px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
 }
 
 .scroll-section {   
+    margin-top: 200px;
     height: 50vh;
     display: flex;
     align-items: center;

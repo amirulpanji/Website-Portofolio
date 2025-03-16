@@ -32,11 +32,11 @@ function raf(time) {
 }
 requestAnimationFrame(raf);
 
-    gsap.registerPlugin(ScrollTrigger);
 
-    // Animasi Text & Gambar Bergerak
+    gsap.registerPlugin(ScrollTrigger);
+    
     gsap.to(".text", {
-        x: 100, 
+        x: 100,
         opacity: 1,
         duration: 1.5,
         scrollTrigger: {
@@ -75,20 +75,6 @@ requestAnimationFrame(raf);
     },
     "+=0.5"); // Delay 0.5 detik setelah scramble selesai
 
-    gsap.registerPlugin(ScrollTrigger);
-
-    // Animasi Text & Gambar Bergerak
-    gsap.to(".text", {
-        x: 100,
-        opacity: 1,
-        duration: 1.5,
-        scrollTrigger: {
-            scrub: true,
-            trigger: ".text",
-            start: "top 80%",
-            toggleActions: "play none none none"
-        }
-    });
 
     document.addEventListener("DOMContentLoaded", function () {
         gsap.to(".parallax", {
@@ -121,13 +107,12 @@ requestAnimationFrame(raf);
                 end: "top 50%",
                 scrub: 1,
             },
-            x: 0,
+            x: 0,   
             scale: 1,
             rotation: 0,
             ease: "power3.out"
         }
     );
- });
 
     gsap.fromTo(".frontend", {
                 x: 100,
@@ -198,7 +183,6 @@ requestAnimationFrame(raf);
                 ease: "power3.out"
             }
         );
-
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxb_CKGKjiiik3b8hXhYzlhDssC4X83cWT933fxnIDsSJEqEUH1jpqwIdPiT2HZFIn6/exec'
 const form = document.forms['contact-form']
   
@@ -216,7 +200,7 @@ document.getElementById("submitBtn").addEventListener("click", function() {
         icon: "success",
         showConfirmButton: false,
         timer: 2000,
-    });
+    }); 
 });
 let circleIndicator = document.getElementById ('circleIndicator');
     let circle = circleIndicator.querySelector('circle');
@@ -238,5 +222,5 @@ let circleIndicator = document.getElementById ('circleIndicator');
         const scrollPercent = (scrollTop / scrollHeight) * 100;
         setProgress(scrollPercent); 
     })
-
-    setProgress(0); 
+    setProgress(0);
+});
